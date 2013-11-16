@@ -1,0 +1,19 @@
+<player
+    gravity="-980"
+    vx="300"
+    vy="500"
+    x="120"
+    y="80" >
+
+    <run
+        height="100"
+        width="40" >
+    </run>
+
+    <sit
+        height="40"
+        time="1"
+        width="100" >
+    </sit>
+
+</player>
