@@ -36,7 +36,7 @@ public class WorldRenderer {
 	public void render(float delta) {
 		cam.position.x = world.getPlayer().getPosition().x + 400
 				- world.getPlayer().POSITION_INIT_X;
-		if (cam.position.x >= 1024*3 + 400) {
+		if (cam.position.x >= 1024 + 400) {
 			world.getPlayer().getPosition().x = world.getPlayer().POSITION_INIT_X;
 		}
 		cam.update();
